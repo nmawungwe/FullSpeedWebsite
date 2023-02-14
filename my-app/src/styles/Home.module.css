@@ -23,6 +23,7 @@
   line-height: 1.5;
   font-size: 1.5rem;
   color:#0A2A5A;
+  font-family: 'Roboto', sans-serif;   
 }
 
 .ul {
@@ -34,10 +35,30 @@
   list-style: none;
 }
 
-.ul li::after {
+/* .ul li::after {
   content: ' >>';
   display: 'inline-block';
   margin-right: 0.5rem;
+} */
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
 
 .footer {
