@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
@@ -9,7 +10,7 @@ export default function Home() {
       <Head>
         <title>FullSpeed Inc</title>
         <meta name="description" content="FullSpeed Inc" />
-        <Link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
